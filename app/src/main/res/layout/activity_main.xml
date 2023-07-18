@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg6"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="188dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="492dp"
+        android:layout_marginEnd="112dp"
+        android:backgroundTint="#2196F3"
+        android:fontFamily="@font/arbutus"
+        android:text="Change"
+        android:textColor="#F1F7F8"
+        android:textColorLink="#CDDC39"
+        android:textSize="24sp"
+        app:iconPadding="10px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="344dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="32dp"
+        android:background="#2C00E5FF"
+        android:fontFamily="@font/alegreya_sc"
+        android:shadowColor="#0F2CCF"
+        android:text="WallPaper Change Application"
+        android:textColor="#FF6600"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
